@@ -95,7 +95,7 @@ promo__menu.forEach((btn) => {
         promo__menu.forEach(e => e.classList.remove('promo__menu-item_active'))
         btn.classList.add('promo__menu-item_active')
     
-        let val = btn.value
+        let val = btn.innerHTML
     
         let filttrr = movies.filter((item) => {
    
